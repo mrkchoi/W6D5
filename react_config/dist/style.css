@@ -1,0 +1,36 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.main__container {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.clock__container {
+  width: 575px;
+  height: 120px;
+  background-color: orange;
+  color: white;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.clock__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.clock__inner h3, 
+.clock__inner p {
+  font-size: 30px;
+  margin: 0;
+}
+
+.clock__inner:first-of-type {
+  margin-bottom: 12px; 
+}
+
