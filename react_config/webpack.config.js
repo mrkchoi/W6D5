@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './frontend/entry.js',
+  entry: './frontend/entry.jsx',
   output: {
     path: path.resolve(__dirname),
     filename: './dist/bundle.js'
@@ -17,7 +17,7 @@ module.exports = {
           query: {
             presets: ['@babel/env', '@babel/react']
           }
-        }
+        },
       }
     ]
   },
