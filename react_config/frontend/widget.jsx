@@ -1,5 +1,6 @@
 import React from 'react';
 import Clock from './clock';
+import Tabs from './tabs';
 
 class Widget extends React.Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class Widget extends React.Component {
       <div className="ui container main__container">
         <h1>Widgets!</h1>
         <Clock />
+        <Tabs/>
       </div >
     );
   }
